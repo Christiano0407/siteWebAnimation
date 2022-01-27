@@ -33,6 +33,11 @@
 .nav__search a i {
   font-size: 1.2rem;
   margin-left: 1rem;
+  color: var(--clr-white);
+}
+.nav__search input::placeholder {
+  color: #fff;
+  filter: opacity(0.8);
 }
 .nav__text {
   width: 300px;
@@ -59,6 +64,9 @@
 }
 .nav__user a {
   font-size: 1.5rem;
+}
+.nav__user a i {
+  color: #fff;
 }
 .nav__user .user {
   width: 30px;
