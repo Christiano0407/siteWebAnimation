@@ -1,0 +1,59 @@
+/* == General Components == */
+
+/* == General Root == */
+:root {
+  /*Color*/
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-black-two: #333;
+  --clr-ux-1: #8b56bf;
+  --clr-ux-2: #3c3e73;
+  --clr-ux-3: #f2e96b;
+
+  /*fonts*/
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-poppins: "Poppins", sans-serif;
+  /*Margin*/
+}
+
+/* == General Style == */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+h2,
+h3,
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
