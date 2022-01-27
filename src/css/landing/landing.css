@@ -1,7 +1,18 @@
-.wrapper {
-  position: relative;
+.landing {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  /* background-color: var(--clr-ux-2); */
+  /* box-shadow: inset 0 0 300px #000; */
+  /* background: radial-gradient(circle, rgba(62, 62, 62, 0) 0%, #000 100%); */
+  /* background-color: var(--clr-background); */
+  background: #fff;
+  display: grid;
+  grid-template-columns: 80px repeat(6, 1fr);
+  grid-template-rows: 100px repeat(4, 1fr);
+  gap: 1rem;
+  grid-template-areas:
+    "nav nav nav nav nav nav nav"
+    "aside main main main main as as"
+    "aside main main main main as as"
+    "aside main main main main as as"
+    "aside main main main main as as";
 }
