@@ -6,8 +6,8 @@ Site Web Animation and Landing Page / Javascript Vanilla
 
 > Dribble
 
-- [Dribble_1](https://dribbble.com/shots/17283467-NFT-Web-App)
-- [Dribble_2](https://dribbble.com/shots/17248309--ON-Animated-Virtual-Reality-hero-section)
+- [Dribble_Inspiration-One](https://dribbble.com/shots/17283467-NFT-Web-App)
+- [Dribble_Inspiration-Two](https://dribbble.com/shots/17248309--ON-Animated-Virtual-Reality-hero-section)
 
 # MIT License
 
