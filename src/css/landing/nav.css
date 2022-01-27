@@ -6,4 +6,70 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+}
+.nav__logo {
+}
+.nav__logo--text {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+.nav__logo span {
+  font-family: var(--font-family-roboto);
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--clr-white);
+}
+.nav__search {
+}
+.nav__search input {
+  padding: 1rem;
+  outline: none;
+  background: transparent;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+}
+.nav__search a i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.nav__text {
+  width: 300px;
+}
+.nav__text--list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__text--list span {
+  font-family: var(--font-family-poppins);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--clr-white);
+}
+.nav__text--list span:hover {
+  opacity: 0.6;
+}
+.nav__user {
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav__user a {
+  font-size: 1.5rem;
+}
+.nav__user .user {
+  width: 30px;
+  height: 30px;
+  /* background: gray; */
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-image: url("/src/assets/img/five.jpg");
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
