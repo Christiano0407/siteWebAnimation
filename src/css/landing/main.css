@@ -3,4 +3,26 @@
   width: 100%;
   height: 100%;
   border: 4px solid blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 150px 250px 50px;
+  gap: 1rem;
+  margin: 0 auto;
+  grid-template-areas:
+    "template"
+    "collection"
+    "cards"
+    "value";
+}
+.main__template {
+  grid-area: template;
+}
+.main__collection {
+  grid-area: collection;
+}
+.main__cards {
+  grid-area: cards;
+}
+.main__value {
+  grid-area: value;
 }

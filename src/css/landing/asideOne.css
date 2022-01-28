@@ -2,11 +2,11 @@
   grid-area: aside;
   width: 100%;
   height: 100%;
-  border: 4px solid greenyellow;
+  /* border: 4px solid greenyellow; */
   flex-direction: column;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 150px 150px 150px;
   /* gap: 1rem; */
   grid-template-areas:
     "asideList"
@@ -14,6 +14,7 @@
     "asideContact";
   margin: 0 auto;
   padding: 1rem;
+  align-content: center;
 }
 .aside__list {
   grid-area: asideList;
@@ -35,10 +36,11 @@
 }
 .aside__list--access a i {
   color: #fff;
+  opacity: 0.5;
   font-size: 1.2rem;
 }
 .aside__list--access a i:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 .aside__list--accessa li:first-child {
   width: 25px;
@@ -71,10 +73,11 @@
 }
 .aside__social--icon a i {
   color: #fff;
+  opacity: 0.5;
   font-size: 1.2rem;
 }
 .aside__social--icon a i:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 .aside__contact {
   grid-area: asideContact;
@@ -96,7 +99,8 @@
 .aside__contact--icon a i {
   color: #fff;
   font-size: 1.2rem;
+  opacity: 0.5;
 }
 .aside__contact--icon a i:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
