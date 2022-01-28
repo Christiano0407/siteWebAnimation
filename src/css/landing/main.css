@@ -31,7 +31,7 @@
   border-radius: 1rem;
   position: relative;
   z-index: 1;
-  filter: opacity(0.7);
+  filter: opacity(0.5);
   box-shadow: 1px 5px 15px #3c3e73;
 }
 .main__template--text {
