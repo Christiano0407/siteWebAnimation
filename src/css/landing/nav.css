@@ -11,8 +11,9 @@
 .nav__logo {
 }
 .nav__logo--text {
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 1rem;
+  color: #fff;
 }
 .nav__logo span {
   font-family: var(--font-family-roboto);
