@@ -105,7 +105,7 @@
 .user-card {
   width: 100%;
   height: 100%;
-  background-color: #3c3e73;
+  background-color: #1e1f4b;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   flex-direction: column;
@@ -113,6 +113,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 25px #000;
 }
 .color {
   width: 100%;
