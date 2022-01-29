@@ -2,7 +2,7 @@
   grid-area: main;
   width: 100%;
   height: 100%;
-  border: 4px solid blue;
+  /* border: 4px solid blue; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 150px 250px 50px;
@@ -158,9 +158,62 @@
 /*cards*/
 .main__cards {
   grid-area: cards;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__cards .swiper {
+  width: 600px;
+  height: 200px;
+}
+.swiper-slide.one {
+  background-image: url("/src/assets/img/ten.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+.swiper-slide.two {
+  background-image: url("/src/assets/img/nine.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+.swiper-slide.three {
+  background-image: url("/src/assets/img/eleven.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+
+.swiper .swiper-button-next {
+  color: #fff;
+  filter: opacity(0.5);
+}
+.swiper .swiper-button-prev {
+  color: #fff;
+  filter: opacity(0.5);
 }
 
 /*value*/
 .main__value {
   grid-area: value;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-text {
+  color: #fff;
+  font-weight: 700;
+  filter: opacity(0.5);
+  font-size: 1.6rem;
 }
