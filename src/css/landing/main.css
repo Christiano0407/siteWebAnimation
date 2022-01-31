@@ -93,10 +93,10 @@
   font-weight: bold;
 }
 .collection-user {
-  width: 100%;
+  width: 90%;
   height: 70%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-flow: row;
   grid-auto-rows: 1fr;
   gap: 1rem;
@@ -105,7 +105,13 @@
 .user-card {
   width: 100%;
   height: 100%;
-  background-color: #1e1f4b;
+  /* background-color: #1e1f4b; */
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   flex-direction: column;
@@ -113,7 +119,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 25px #000;
+  box-shadow: 2px 2px 30px #333;
 }
 .color {
   width: 100%;
@@ -124,8 +130,8 @@
 }
 .user-img {
   position: relative;
-  width: 25%;
-  height: 50%;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   bottom: 1.5rem;
 }
@@ -137,6 +143,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  box-shadow: 10px 1px 20px #333;
 }
 .user-text {
   width: 100%;
