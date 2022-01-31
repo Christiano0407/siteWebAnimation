@@ -5,7 +5,7 @@
   /* border: 4px solid blue; */
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 150px 250px 50px;
+  grid-template-rows: 1fr 150px 250px 25px;
   gap: 1rem;
   margin: 0 auto;
   grid-template-areas:
@@ -173,7 +173,15 @@
 }
 .main__cards .swiper {
   width: 600px;
-  height: 200px;
+  height: 225px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
 }
 .swiper-slide.one {
   background-image: url("/src/assets/img/ten.jpg");
@@ -182,14 +190,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2rem;
+  text-align: center;
 }
 .swiper-slide.two {
-  background-image: url("/src/assets/img/nine.png");
+  background-image: url("/src/assets/img/thirteen.jpg");
   object-fit: cover;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2rem;
+  text-align: center;
 }
 .swiper-slide.three {
   background-image: url("/src/assets/img/eleven.jpg");
@@ -198,17 +208,70 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2rem;
+  text-align: center;
 }
-
-.swiper .swiper-button-next {
-  color: #fff;
-  filter: opacity(0.5);
+.swiper-slide.four {
+  background-image: url("/src/assets/img/fourteen.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
 }
-.swiper .swiper-button-prev {
-  color: #fff;
-  filter: opacity(0.5);
+.swiper-slide.five {
+  background-image: url("/src/assets/img/one.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
 }
-
+.swiper-slide.six {
+  background-image: url("/src/assets/img/ten.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
+}
+.swiper-slide.seven {
+  background-image: url("/src/assets/img/eleven.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
+}
+.swiper-slide.eight {
+  background-image: url("/src/assets/img/thirteen.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
+}
+.swiper-slide.nine {
+  background-image: url("/src/assets/img/three.png");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  text-align: center;
+}
+/* .swiper .swiper-button-next { */
+/*   color: #fff; */
+/*   filter: opacity(0.5); */
+/* } */
+/* .swiper .swiper-button-prev { */
+/*   color: #fff; */
+/*   filter: opacity(0.5); */
+/* } */
 /*value*/
 .main__value {
   grid-area: value;
