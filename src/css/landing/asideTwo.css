@@ -165,7 +165,7 @@
   color: #fff;
   filter: opacity(0.5);
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .as__date .date-text {
   width: 100%;
@@ -192,8 +192,8 @@ filter: opacity(0.5);
   align-items: center;
 }
 .circle .circle-one {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: transparent;
   border: 5px solid white;
@@ -210,16 +210,16 @@ filter: opacity(0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .circle-one p span {
   color: #fff;
   filter: opacity(0.5);
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .circle .circle-two {
- width: 80px;
-height: 80px;
+ width: 60px;
+height: 60px;
 border-radius: 50%;
 background: transparent;
 border: 5px solid white;
@@ -235,16 +235,32 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .circle-two p span {
   color: #fff;
   filter: opacity(0.5);
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .as__date .date-btn {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 1rem;
+}
+.date-btn .date-btn-btn {
+  color: var(--clr-ux-2);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.date-btn .btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  background: var(--clr-ux-3);
+
 }
