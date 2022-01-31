@@ -110,7 +110,7 @@
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -162,7 +162,7 @@
   opacity: 0.5;
 }
 
-/*cards*/
+/*cards ==========> */
 .main__cards {
   grid-area: cards;
   width: 100%;
@@ -174,6 +174,7 @@
 .main__cards .swiper {
   width: 600px;
   height: 225px;
+  box-shadow: 5px 2px 20px #3c3e73;
 }
 .swiper-slide {
   display: flex;
@@ -285,5 +286,5 @@
   color: #fff;
   font-weight: 700;
   filter: opacity(0.5);
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
