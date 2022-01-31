@@ -169,7 +169,7 @@
 }
 .as__date .date-text {
   width: 100%;
-  padding: .5rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -196,7 +196,7 @@ filter: opacity(0.5);
   height: 60px;
   border-radius: 50%;
   background: transparent;
-  border: 5px solid white;
+  border: 5px solid #3c3e73;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,7 +222,7 @@ filter: opacity(0.5);
 height: 60px;
 border-radius: 50%;
 background: transparent;
-border: 5px solid white;
+border: 5px solid #8b56bf;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -238,6 +238,32 @@ justify-content: center;
   font-size: 1.4rem;
 }
 .circle-two p span {
+  color: #fff;
+  filter: opacity(0.5);
+  font-size: 1rem;
+}
+.circle .circle-three {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 5px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.circle-three p {
+  color: #fff;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.circle-three p span {
   color: #fff;
   filter: opacity(0.5);
   font-size: 1rem;
