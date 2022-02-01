@@ -15,7 +15,7 @@ Site Web Animation and Landing Page / Javascript Vanilla
 
 - [CDN](https://cdnjs.com/)
   > Material Design
-- [mATERIAL dESIGN](https://material.io/)
+- [Material Design](https://material.io/)
   > PNG tiny
 - [Tiny PNG](https://tinypng.com/)
   > Github Frontend
@@ -25,13 +25,13 @@ Site Web Animation and Landing Page / Javascript Vanilla
   > Google Fonts
 - [Google Fonts](https://fonts.google.com/)
   > Gradient Magic
-- [](https://cssgradient.io/gradient-backgrounds/)
+- [Gradient Magic](https://cssgradient.io/gradient-backgrounds/)
   > Glassmorphism
-- [](https://hype4.academy/tools/glassmorphism-generator)
+- [Glassmorphism](https://hype4.academy/tools/glassmorphism-generator)
   > GradientMagic
-- [](https://www.gradientmagic.com/)
+- [GradientMagic](https://www.gradientmagic.com/)
   > Book Design
-- [](https://www.booklets.io/c/graphic-design)
+- [Book Design](https://www.booklets.io/c/graphic-design)
 
 ## Tools Javascript
 
