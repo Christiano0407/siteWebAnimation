@@ -9,6 +9,52 @@ Site Web Animation and Landing Page / Javascript Vanilla
 - [Dribble_Inspiration-One](https://dribbble.com/shots/17283467-NFT-Web-App)
 - [Dribble_Inspiration-Two](https://dribbble.com/shots/17248309--ON-Animated-Virtual-Reality-hero-section)
 
+## Tools Project
+
+> CDN Js
+
+- [CDN](https://cdnjs.com/)
+  > Material Design
+- [mATERIAL dESIGN](https://material.io/)
+  > PNG tiny
+- [Tiny PNG](https://tinypng.com/)
+  > Github Frontend
+- [Frontend](https://github.com/topics/frontend)
+  > MD Editor
+- [MDEditor](https://pandao.github.io/editor.md/en.html)
+  > Google Fonts
+- [Google Fonts](https://fonts.google.com/)
+  > Gradient Magic
+- [](https://cssgradient.io/gradient-backgrounds/)
+  > Glassmorphism
+- [](https://hype4.academy/tools/glassmorphism-generator)
+  > GradientMagic
+- [](https://www.gradientmagic.com/)
+  > Book Design
+- [](https://www.booklets.io/c/graphic-design)
+
+## Tools Javascript
+
+> GSAP
+
+- [Gsap](https://greensock.com/docs/)
+  > Swiper
+- [Swiper](https://swiperjs.com/)
+  > Lottie Files
+- [Lottie](https://lottiefiles.com/)
+  > Video Js
+- [Video Js](https://videojs.com/getting-started)
+  > Dribble
+- [Dribble](https://dribbble.com/studioMUTI)
+
+## Tools Ilustration / PNG / Svg / Jpg
+
+> Ouch
+
+- [Ouch](https://icons8.com/illustrations)
+  > Unsplash
+- [Unsplash](https://unsplash.com/)
+
 # MIT License
 
 > License Web
